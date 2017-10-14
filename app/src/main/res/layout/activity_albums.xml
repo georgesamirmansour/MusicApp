@@ -12,6 +12,11 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/albums_1_id"
+            style="@style/itemsStyle"
+            android:text="@string/albums_description" />
+
+        <TextView
             android:id="@+id/now_playing_id"
             style="@style/itemsStyle"
             android:background="@color/now_playing_color"
@@ -35,9 +40,5 @@
             android:background="@color/PayPal"
             android:text="@string/PayPal_string" />
 
-        <TextView
-            android:id="@+id/albums_1_id"
-            style="@style/itemsStyle"
-            android:text="@string/albums_description" />
     </LinearLayout>
 </ScrollView>
