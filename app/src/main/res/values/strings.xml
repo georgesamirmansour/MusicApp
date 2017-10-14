@@ -4,18 +4,23 @@
     <string name="list_artists_string">LIST ARTISTS</string>
     <string name="now_playing_string">NOW PLAYING</string>
     <string name="play_lists_string">PLAY LISTS</string>
-    <string name="song_name_and_details">Song name, here you can listen to your own music, using class of MediaPlayer</string>
+    <string name="song_name_and_details"> NOW PLAYING \n
+        Song name, here you can listen to your own music, using class of MediaPlayer</string>
     <string name="song_details">song details</string>
     <string name="details_message">there is no details on this song</string>
-    <string name="albums_description">Here you can listen to the music that is listen by albums name </string>
+    <string name="albums_description"> ALBUMS \n
+        Here you can listen to the music that is listen by albums name </string>
     <string name="message">There is no data on this record \t</string>
-    <string name="artist_description">here you can listen to your musical artist or band musics which you follow or liked them </string>
-    <string name="play_list_description">Here you can listen to your chosen play lists which is contain your liked music and songs
+    <string name="artist_description"> LIST ARTISTS \n
+        here you can listen to your musical artist or band musics which you follow or liked them </string>
+    <string name="play_list_description">PLAY LISTS  \n
+        Here you can listen to your chosen play lists which is contain your liked music and songs
     you will see a list of songs (title, artist, duration of song, as well as an image) we can use sort or reviews in music by
         the most reviews muisc you give to the least
     </string>
     <string name="PayPal_string">PAY PAL</string>
-    <string name="PayPal_description">1. Download the Android Mobile Payments Library SDK from PayPal and include PayPal_MPL.jar
+    <string name="PayPal_description"> PAY PAL \n
+        1. Download the Android Mobile Payments Library SDK from PayPal and include PayPal_MPL.jar
         and the other necessary MPL components in your Android app. \n
         2. Obtain an AppID (for testing purposes, use the PayPal Sandbox AppID). \n
         3. Specify the PayPal environment you are addressing
@@ -27,7 +32,8 @@
         within your app (there is no browser or webview involved). \n
         7. When the payment flow is complete, MPL returns control to your app.
     </string>
-    <string name="main_app_string">here you can listen to music and song even if it on internet or on your device</string>
+    <string name="main_app_string">Cloudy Music App \n here you can listen to music and song even if
+        it on internet or on your device</string>
     <string name="app_main_page">Cloudy Music App</string>
 
 </resources>
