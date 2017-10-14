@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Cloudy Music Player</string>
+    <string name="albums_string">Albums</string>
+    <string name="list_artists_string">List Artists</string>
+    <string name="now_playing_string">Now Playing</string>
+    <string name="play_lists_string">Play Lists</string>
+    <string name="song_name_and_details">Song name, here you can listen to your own music, using class of MediaPlayer</string>
+    <string name="song_details">song details</string>
+    <string name="buy_message">the song is free to listen or download</string>
+    <string name="details_message">there is no details on this song</string>
+    <string name="albums_description">Here you can listen to the music that is listen by albums name </string>
+    <string name="message">There is no data on this record \t</string>
+    <string name="artist_description">here you can listen to your musical artist or band musics which you follow or liked them </string>
+    <string name="play_list_description">Here you can listen to your chosen play lists which is contain your liked music and songs
+    you will see a list of songs (title, artist, duration of song, as well as an image) we can use sort or reviews in music by
+        the most reviews muisc you give to the least
+    </string>
+    <string name="PayPal_string">Pay Pal</string>
+    <string name="PayPal_description">1. Download the Android Mobile Payments Library SDK from PayPal and include PayPal_MPL.jar
+        and the other necessary MPL components in your Android app. \n
+        2. Obtain an AppID (for testing purposes, use the PayPal Sandbox AppID). \n
+        3. Specify the PayPal environment you are addressing
+        (for example, ENV_SANDBOX or ENV_LIVE) and the business PayPal Account as the receiver. \n
+        4. Calculate the price of the item(s) or service to be purchased and input that value into your MPL call. \n
+        5. et the Payment Type (for example, PAYMENT_TYPE_SERVICE or PAYMENT_TYPE_PERSONAL). \n
+        6. Make the MPL payment call. \t When you make the call, the customer is presented
+        with an in-app PayPal log in screen and the payment processing is completed
+        within your app (there is no browser or webview involved). \n
+        7. When the payment flow is complete, MPL returns control to your app.
+    </string>
+    <string name="main_app_string">here you can listen to music and song even if it on internet or on your device</string>
+    <string name="app_main_page">Cloudy Music App</string>
+
+</resources>

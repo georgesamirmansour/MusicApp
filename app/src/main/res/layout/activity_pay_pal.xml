@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/PayPal"
+    tools:context="com.example.gogos.musicapp.PayPal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/now_playing_id"
+            style="@style/itemsStyle"
+            android:background="@color/now_playing_color"
+            android:text="@string/now_playing_string" />
+
+        <TextView
+            android:id="@+id/albums_id"
+            style="@style/itemsStyle"
+            android:background="@color/albums_color"
+            android:text="@string/albums_string" />
+
+        <TextView
+            android:id="@+id/list_artists_id"
+            style="@style/itemsStyle"
+            android:background="@color/list_artists_color"
+            android:text="@string/list_artists_string" />
+
+        <TextView
+            android:id="@+id/play_lists_id"
+            style="@style/itemsStyle"
+            android:background="@color/play_lists_color"
+            android:text="@string/play_lists_string" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:text="@string/PayPal_description"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+</ScrollView>

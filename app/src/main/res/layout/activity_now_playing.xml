@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/now_playing_color"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.example.gogos.musicapp.NowPlaying">
+
+    <TextView
+        android:id="@+id/albums_id"
+        style="@style/itemsStyle"
+        android:background="@color/albums_color"
+        android:text="@string/albums_string" />
+
+    <TextView
+        android:id="@+id/list_artists_id"
+        style="@style/itemsStyle"
+        android:background="@color/list_artists_color"
+        android:text="@string/list_artists_string" />
+
+    <TextView
+        android:id="@+id/play_lists_id"
+        style="@style/itemsStyle"
+        android:background="@color/play_lists_color"
+        android:text="@string/play_lists_string" />
+
+    <Button
+        android:id="@+id/payment_id"
+        style="@style/itemsStyle"
+        android:background="@color/PayPal"
+        android:text="@string/PayPal_string" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/song_name_and_details"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_weight="0.1"
+        android:src="@drawable/a1" />
+
+    <TextView
+        android:id="@+id/song_details_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/song_details"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#4A312A</color>
+    <color name="primary_dark_color">#2F1D1A</color>
+    <color name="tan_background">#FFFFFF</color>
+    <color name="albums_color">#E65100</color>
+    <color name="list_artists_color">#1A237E</color>
+    <color name="now_playing_color">#D50000</color>
+    <color name="play_lists_color">#424242</color>
+    <color name="PayPal">#000000</color>
+</resources>
