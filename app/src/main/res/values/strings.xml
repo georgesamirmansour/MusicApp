@@ -1,12 +1,11 @@
 <resources>
-    <string name="app_name">Cloudy Music Player</string>
-    <string name="albums_string">Albums</string>
-    <string name="list_artists_string">List Artists</string>
-    <string name="now_playing_string">Now Playing</string>
-    <string name="play_lists_string">Play Lists</string>
+    <string name="app_name">Music app</string>
+    <string name="albums_string">ALBUMS</string>
+    <string name="list_artists_string">LIST ARTISTS</string>
+    <string name="now_playing_string">NOW PLAYING</string>
+    <string name="play_lists_string">PLAY LISTS</string>
     <string name="song_name_and_details">Song name, here you can listen to your own music, using class of MediaPlayer</string>
     <string name="song_details">song details</string>
-    <string name="buy_message">the song is free to listen or download</string>
     <string name="details_message">there is no details on this song</string>
     <string name="albums_description">Here you can listen to the music that is listen by albums name </string>
     <string name="message">There is no data on this record \t</string>
@@ -15,7 +14,7 @@
     you will see a list of songs (title, artist, duration of song, as well as an image) we can use sort or reviews in music by
         the most reviews muisc you give to the least
     </string>
-    <string name="PayPal_string">Pay Pal</string>
+    <string name="PayPal_string">PAY PAL</string>
     <string name="PayPal_description">1. Download the Android Mobile Payments Library SDK from PayPal and include PayPal_MPL.jar
         and the other necessary MPL components in your Android app. \n
         2. Obtain an AppID (for testing purposes, use the PayPal Sandbox AppID). \n
